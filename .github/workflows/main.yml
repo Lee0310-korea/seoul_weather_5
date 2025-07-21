@@ -1,8 +1,8 @@
 name: Seoul Weather Data Per 5m
 
 on: #작업을 수행하는 조건
-  schedule: #스케쥴링
-    - cron: "*/5 * * * *" # 5분 마다 실행
+  # schedule: #스케쥴링
+  #   - cron: "*/5 * * * *" # 5분 마다 실행
   workflow_dispatch: # 수동으로 실행 가능 
 jobs: #실행항 작업정의 
   request_weather:
